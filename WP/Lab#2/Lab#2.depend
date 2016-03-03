@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1457020439 source:c:\users\nicol\desktop\pw\lab2\lab#2\main.cpp
+	<tchar.h>
+	<windows.h>
+	"resource.h"
+	<commdlg.h>
+	<stdio.h>
+	<iostream>
+
+1457019823 c:\users\nicol\desktop\pw\lab2\lab#2\resource.h
+
+1457020517 source:c:\users\nicol\desktop\pw\lab2\lab#2\resource.rc
+	"resource.h"
+	"afxres.h"
+
