@@ -101,7 +101,7 @@ LRESULT CALLBACK WindowProcedure (HWND hwnd, UINT message, WPARAM wParam, LPARAM
     int yFillPreview = 200;
     int xStrokePreview = 115;
     int yStrokePreview = 200;
-    static RECT drawingArea = {0, 40, 980, 675};
+    static RECT drawingArea = {0, 40, 985, 670};
     static RECT fillColorRect = {xFillPreview, yFillPreview, xFillPreview + 25, yFillPreview + 20};
     static RECT borderColorRect = {xStrokePreview, yStrokePreview, xStrokePreview + 25, yStrokePreview + 20};
     static RECT gradientRect = {25, 300, 140, 330};
@@ -611,7 +611,15 @@ LRESULT CALLBACK WindowProcedure (HWND hwnd, UINT message, WPARAM wParam, LPARAM
             break;
         }
 
-
+case WM_GETMINMAXINFO:
+        {
+            LPMINMAXINFO winSize = (LPMINMAXINFO)lParam;
+            winSize->ptMinTrackSize.x = 985;
+            winSize->ptMinTrackSize.y = 670;
+            winSize->ptMaxTrackSize.x = 985;
+            winSize->ptMaxTrackSize.y = 670;
+            break;
+        }
 
         case WM_PAINT:
             hdc = BeginPaint(hwnd, &ps);
