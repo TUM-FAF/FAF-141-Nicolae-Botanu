@@ -1,9 +1,0 @@
-C:\Users\nicol\Desktop\Calculator poject\Calculator\Calculator\bin\Debug\Calculator.exe.config
-C:\Users\nicol\Desktop\Calculator poject\Calculator\Calculator\obj\Debug\Calculator.csprojResolveAssemblyReference.cache
-C:\Users\nicol\Desktop\Calculator poject\Calculator\Calculator\obj\Debug\Calculator.Properties.Resources.resources
-C:\Users\nicol\Desktop\Calculator poject\Calculator\Calculator\obj\Debug\Calculator.csproj.GenerateResource.Cache
-C:\Users\nicol\Desktop\Calculator poject\Calculator\Calculator\bin\Debug\Calculator.exe
-C:\Users\nicol\Desktop\Calculator poject\Calculator\Calculator\bin\Debug\Calculator.pdb
-C:\Users\nicol\Desktop\Calculator poject\Calculator\Calculator\obj\Debug\Calculator.exe
-C:\Users\nicol\Desktop\Calculator poject\Calculator\Calculator\obj\Debug\Calculator.pdb
-C:\Users\nicol\Desktop\Calculator poject\Calculator\Calculator\obj\Debug\Calculator.Gui.resources
