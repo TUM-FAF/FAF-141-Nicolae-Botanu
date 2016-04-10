@@ -1,7 +1,8 @@
-### Laboratory work #3 analysis
-
-* I added a painting region 
-* You can draw 5 plane objects; 
-* Ereaser is working with width;
-* I added 2 custom bitmap image;
-* I added Hook keyboard input;
+### Laboratory work #4 analysis
+Tasks
+* Add animated objects which will interact with each other;
+* Increase and decrease animation speed using mouse wheel/from keebord;
+* Objects change color on interaction with each other;
+* Objects change shape on collision with right and left walls and speed with top and bottom;
+* Solve flicking problem;
+* Changing the speed with weel or up/down buttons ;
