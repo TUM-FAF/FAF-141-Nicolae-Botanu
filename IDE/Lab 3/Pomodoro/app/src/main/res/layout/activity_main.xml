@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnStop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="28dp"
+            android:layout_marginBottom="14dp"
+            android:text="Stop"
+            android:layout_gravity="right|bottom" />
+
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="28dp"
+            android:layout_marginBottom="14dp"
+            android:text="Start"
+            android:layout_gravity="left|bottom" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btnStop"
+            android:id="@+id/textViewTime"
+            android:layout_gravity="center" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="14dp"
+            android:text="Break"
+            android:id="@+id/btnBreak"
+            android:layout_gravity="center|bottom" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="101dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/tv"
+            android:layout_gravity="center" />
+
+
+    </FrameLayout>
+</RelativeLayout>
